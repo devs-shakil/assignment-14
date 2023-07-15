@@ -2,7 +2,7 @@ const Navbar = () => {
     return (
         <div>
             <div className="container">
-            <nav className="navbar navbar-expand-lg navbar-light bg-info">
+            <nav className="navbar navbar-expand-lg navbar-light  bg-info " >
             <a className="navbar-brand" href="#">
                 Alliyen
             </a>
