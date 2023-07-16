@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
         <div>
-            <div className="container">
+            <div className="container bg-info borderBottom">
             <nav className="navbar navbar-expand-lg navbar-light  bg-info " >
             <a className="navbar-brand" href="#">
                 Alliyen

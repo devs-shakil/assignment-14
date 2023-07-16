@@ -2,7 +2,7 @@ const Content = ({text, setText}) => {
     return (
         <div>
             <section>
-            <div className="container">
+            <div className="container bg-info">
             <h2 className="content">Display text using onChange</h2>
                 <div className="row">
                     <div className="col-sm-12">

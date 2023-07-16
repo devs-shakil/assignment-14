@@ -12,7 +12,6 @@ h2{
 
 button{
     padding:10px 20px;
-    margin:10px;
     border:none;
     border-radius: 10px;
     background-color: green;
@@ -25,4 +24,7 @@ p{
 }
 nav{
     background-color: rgba(0, 0, 0, 0.2);
+}
+.borderBottom{
+    border-bottom:1px solid rgba(6, 88, 88, 0.589)
 }

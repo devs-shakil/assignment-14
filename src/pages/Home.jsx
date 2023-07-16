@@ -16,11 +16,17 @@ const Home = () => {
   }
     return (
         <div>
-            <Navbar/>
-            <Header title="My React Application"/>      
-            <Content text={text} setText={setText} />
-            <ContentBtn textDisplay={textDisplay} setTextDisplay={setTextDisplay} handleBtn={handleBtn}/>
-            <Footer/>
+            <div className="container bg-info">
+
+                    
+                <Navbar/>
+                <Header title="My React Application"/>      
+                <Content text={text} setText={setText} />
+                <ContentBtn textDisplay={textDisplay} setTextDisplay={setTextDisplay} handleBtn={handleBtn}/>
+                <Footer/>
+
+                
+            </div>
         </div>
     );
 };
